@@ -1,0 +1,71 @@
+> git init
+创建仓库
+
+> git clone <repostoryname> <directory>
+从现有Git仓库拷贝项目
+
+> git add
+将文件添加到暂存区
+
+> git status
+查看上次提交之后文件是否有修改，git status -s 结果简短化
+
+> git diff
+查看git status的详细信息
+
+> git commit
+将暂存区内容提交到仓库
+
+> git reset
+版本回退，git reset HEAD,git reset --hard HEAD^,git reset --soft HEAD^
+
+> git rm
+文件删除
+
+> git mv
+移动或重命名文件、目录
+
+> git branch
+查看分支
+
+> git branch <fenzhiname>
+创建分支
+
+> git checkout <fenzhiname>
+切换分支
+
+> git checkout -b <fenzhiname>
+创建并切换分支
+
+> git merge <fenzhiname>
+合并分支
+
+> git branch -d <fenzhiname>
+删除分支
+
+> git pull
+抓取分支
+
+> git log
+查看历史提交记录，--oneline简洁版本,--graph查看什么时候出现了分支、合并。--reverse反向显示,--author指定用户
+
+> git remote add <shortname> <url>
+添加一个新的远程仓库
+
+> ssh-keygen -t rsa -C <email>
+生成秘钥
+
+> git push -u <shortname> <fenzhiname>
+提交到远程仓库
+
+> git remote
+查看当前的远程库
+
+> git fetch
+从远程仓库下载新分支与数据
+
+> git push <shortname> <fenzhiname>
+推送到远程仓库,即提交到远程仓库
+
+> git remote rm <shortname>
+删除远程仓库
